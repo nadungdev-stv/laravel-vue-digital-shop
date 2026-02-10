@@ -1,13 +1,12 @@
+# Standard Laravel Ignores
 /vendor
 /node_modules
 /public/hot
 /public/storage
 /storage/*.key
-/storage/debugbar
-/storage/framework/cache/data/*
-/storage/framework/sessions/*
-/storage/framework/testing/*
-/storage/framework/views/*
+/storage/pail
+/storage/app/*
+/storage/framework/*
 /storage/logs/*
 .env
 .env.backup
@@ -20,8 +19,28 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/.nova
+/.phpunit.cache
+/.zed
+/auth.json
 
-# Hide Frontend for Backend Portfolio
+# Legacy / Irrelevant
+web shop-phpthuan/
+demotest/
+1.html
+DOCKER_MIGRATE.md
+GUIDE.md
+HUONG_DAN_INSERT_DATA.md
+
+# STRICT BACKEND ONLY
+# Exclude all frontend resources
 /resources/js
 /resources/css
-/public/build
+/resources/views
+/public
+/vite.config.js
+/package.json
+/package-lock.json
+/tailwind.config.js
+/postcss.config.js
+/jsconfig.json
