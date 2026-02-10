@@ -1,0 +1,21 @@
+# Redirect all requests to index.html (except existing files)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php [L]
+
+# Protect config file
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Enable CORS for API
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>

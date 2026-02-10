@@ -1,0 +1,116 @@
+/* Email Forward Search - Custom Styles */
+/* Matching web shop theme with Bootstrap 5 */
+
+/* Form Control Styles */
+.form-control {
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #dee2e6 !important;
+    outline: none !important;
+}
+
+/* Tắt hoàn toàn viền xanh Bootstrap */
+#emailInput:focus {
+    border-color: #dee2e6 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #7387df 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    box-shadow: none;
+}
+
+.btn-primary:disabled {
+    opacity: 0.7;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Input Group */
+.input-group-text {
+    border: 1px solid #dee2e6;
+    border-right: none;
+}
+
+.input-group .form-control {
+    border-left: none;
+}
+
+.input-group .form-control:focus {
+    border-color: #dee2e6 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.input-group:focus-within .input-group-text {
+    border-color: #dee2e6 !important;
+}
+
+.input-group:focus-within .form-control {
+    border-color: #dee2e6 !important;
+}
+
+/* Email Item Hover */
+.email-item {
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.email-item:hover {
+    background: #f8f9fa !important;
+}
+
+/* Modal Styles */
+.modal-content {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+/* Badge Styles */
+.badge {
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .card-body {
+        padding: 1.5rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}

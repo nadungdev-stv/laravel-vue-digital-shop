@@ -1,0 +1,16 @@
+{
+  "name": "netflix-auto-approval",
+  "version": "1.0.0",
+  "description": "Netflix household approval automation worker",
+  "main": "approval_worker.js",
+  "scripts": {
+    "start": "node approval_worker.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "mysql2": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

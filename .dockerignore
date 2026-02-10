@@ -1,0 +1,20 @@
+
+.env
+.git
+.gitignore
+.dockerignore
+node_modules
+vendor
+web shop-phpthuan
+demotest
+1.html
+tests
+DOCKER_MIGRATE.md
+GUIDE.md
+HUONG_DAN_INSERT_DATA.md
+README.md
+DEPLOYMENT.md
+.editorconfig
+.gitattributes
+storage/*.key
+public/storage

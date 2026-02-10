@@ -1,0 +1,10 @@
+# Force cache for images
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 year"
+</IfModule>
+
+# Alternative using Header (if mod_expires doesn't work)
+<IfModule mod_headers.c>
+    Header set Cache-Control "max-age=31536000, public, immutable"
+</IfModule>

@@ -1,0 +1,24 @@
+{
+  "name": "Veyrix Shop - Tài khoản Premium uy tín",
+  "short_name": "Veyrix Shop",
+  "description": "Mua tài khoản Premium uy tín hàng đầu Việt Nam: YouTube Premium, Netflix, Spotify, VPN, Canva… Giá tốt nhất – kích hoạt nhanh – bảo hành trọn đời – hỗ trợ 24/7",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/public/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
