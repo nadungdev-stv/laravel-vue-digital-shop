@@ -7,6 +7,10 @@
 /storage/pail
 /storage/app/*
 /storage/framework/*
+/storage/framework/cache/data/*
+/storage/framework/views/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
 /storage/logs/*
 .env
 .env.backup
@@ -31,6 +35,13 @@ demotest/
 DOCKER_MIGRATE.md
 GUIDE.md
 HUONG_DAN_INSERT_DATA.md
+
+# Sensitive Data / Database Dumps
+*.sql
+*.sqlite
+*.sqlite3
+database/*.sql
+database/sql/*.sql
 
 # STRICT BACKEND ONLY
 # Exclude all frontend resources
