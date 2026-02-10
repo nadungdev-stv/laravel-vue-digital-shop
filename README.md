@@ -5,6 +5,8 @@ A modern, full-stack e-commerce solution designed for selling digital products (
 ![Project Banner](public/images/banner-placeholder.png) 
 *(Add a screenshot of your homepage here)*
 
+🟢 **Live Demo**: [https://www.veyrix.pro/](https://www.veyrix.pro/)
+
 [English](#laravel-vue-digital-shop---e-commerce-platform-for-digital-assets) | [Tiếng Việt](#laravel-vue-digital-shop---nền-tảng-thương-mại-điện-tử-sản-phẩm-số)
 
 ---
@@ -118,6 +120,8 @@ A modern, full-stack e-commerce solution designed for selling digital products (
 # Laravel Vue Digital Shop - Nền tảng Thương mại điện tử Sản phẩm số
 
 Một giải pháp thương mại điện tử full-stack hiện đại, được thiết kế chuyên biệt để bán các sản phẩm kỹ thuật số (Tài khoản Premium như Netflix, YouTube, Spotify). Xây dựng trên nền tảng **Laravel 12** và **Vue 3** mới nhất, tập trung tối đa vào hiệu năng, chuẩn SEO và trải nghiệm người dùng mượt mà.
+
+🟢 **Xem Demo Trực Tiếp**: [https://www.veyrix.pro/](https://www.veyrix.pro/)
 
 ---
 
